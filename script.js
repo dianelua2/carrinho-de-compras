@@ -1,11 +1,11 @@
 // Lista de produtos disponíveis para compra
 const products = [
-    { id: 1, name: 'manga',img:'/img/manga.jpg', price: 29.99 },
-    { id: 2, name: 'uva-preta',img:'/img/uva-preta.jpg', price: 49.99 },
-    { id: 3, name: 'banana',img:'/img/banana.jpg', price: 19.99 },
-    { id: 4, name: 'abacate',img:'/img/abacate.webp', price: 89.99 },
-    { id: 5, name: 'melaoamarelo',img:'/img/melaoamarelo.jpg', price: 14.99 },
-    { id: 6, name: 'pitaya', img:'/img/pitaya.jpg',price: 99.99 }
+    { id: 1, name: 'manga',img:'./img/manga.jpg', price: 29.99 },
+    { id: 2, name: 'uva-preta',img:'./img/uva-preta.jpg', price: 49.99 },
+    { id: 3, name: 'banana',img:'./img/banana.jpg', price: 19.99 },
+    { id: 4, name: 'abacate',img:'./img/abacate.webp', price: 89.99 },
+    { id: 5, name: 'melaoamarelo',img:'./img/melaoamarelo.jpg', price: 14.99 },
+    { id: 6, name: 'pitaya', img:'./img/pitaya.jpg',price: 99.99 }
 ];
 
 // Função para salvar o carrinho no cookie
